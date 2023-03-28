@@ -55,7 +55,6 @@ public class LowestPriceService {
     Keyword returnInfo = new Keyword();
     List<ProductGroup> tempProductGrp = getProdGrpUsingKeyword(keyword);
 
-
     returnInfo.setKeyword(keyword);
     returnInfo.setProductGroups(tempProductGrp);
 
